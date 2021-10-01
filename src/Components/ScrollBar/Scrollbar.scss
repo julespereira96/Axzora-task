@@ -1,0 +1,32 @@
+.vertical-scrollable > .row {
+  position: relative;
+  overflow-y: scroll;
+  height: 300px;
+}
+.col-sm-8 {
+  color: white;
+  font-size: 24px;
+  padding-bottom: 20px;
+  padding-top: 18px;
+}
+
+.scrollbar {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Modal-content {
+  position: relative;
+  z-index: 2;
+  background-color: red;
+  padding: 10px;
+}
+
+.ButtonModal {
+  position: relative;
+  z-index: 1;
+}
+
+.modal-container {
+  text-align: center;
+}
